@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample HTML</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; }
+        #image { width: 200px; height: 133px; }
+    </style>
+</head>
+<body>
+
+    <h1>Sample HTML Page</h1>
+    <p>This is a simple webpage.</p>
+    <img id="image" src="https://via.placeholder.com/200x133" alt="Image">
+    <br><br>
+    <button onclick="document.body.style.backgroundColor = ['#FF5733', '#33FF57', '#3357FF'][Math.floor(Math.random() * 3)]">Change Background</button>
+
+</body>
+</html>
